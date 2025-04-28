@@ -16,8 +16,8 @@ class Cpf{
         if (primeiroDigito < 2){
             primeiroDigito = 0;
         } else {
-            primeiroDigito = 11 - primeiroDigito;  // Caso contrário, calcula 11 - (soma % 11)
-        }
+        primeiroDigito = 11 - primeiroDigito;  // Caso contrário, calcula 11 - (soma % 11)
+    }
 
         var semiCpf = cpf + primeiroDigito.toString();
 
